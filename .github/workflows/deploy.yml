@@ -22,4 +22,10 @@ jobs:
       #     cd TuringPlugins
       #     pip install -e .
       #     cd ..
+      - name: Install TocPlugins
+        run: |
+          git clone https://github.com/TonyCrane/mkdocs-toolchain.git
+          cd mkdocs-toolchain/mkdocs-toc-plugin
+          pip install -e .
+          cd ../..
       - run: mkdocs gh-deploy --force
