@@ -11,7 +11,7 @@ nocomment: True
 <a class="down-button" target="_blank" href="icebreak.zip" markdown="1">:fontawesome-solid-download: 下载</a>
 </div>
 
-## 小游戏
+# 小游戏
 ![小游戏](images/games1.jpg)
 ![小游戏](images/games2.jpg)
 ![小游戏](images/games3.jpg)
@@ -19,17 +19,17 @@ nocomment: True
 ![小游戏](images/games5.jpg)
 ![小游戏](images/games6.jpg)
 
-## 校园追逐
+# 校园追逐
 ![校园追逐](images/chase1.jpg)
 ![校园追逐](images/chase2.jpg)
 ![校园追逐](images/chase3.jpg)
 
-## 海底捞聚餐
+# 海底捞聚餐
 ![海底捞聚餐](images/dinner1.jpg)
 ![海底捞聚餐](images/dinner2.jpg)
 ![海底捞聚餐](images/dinner3.jpg)
 
-## 集体照
+# 集体照
 ![集体照](images/groupPhoto1.jpg)
 ![集体照](images/groupPhoto2.jpg)
 ![集体照](images/groupPhoto3.jpg)
