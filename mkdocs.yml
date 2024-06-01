@@ -15,6 +15,9 @@ nav:
   - 个人档案:
     - person/index.md
 
+  - 班级相册:
+    - album/index.md
+    - 破冰活动: album/icebreak/index.md
 
 theme:
   name: 'material'
@@ -41,9 +44,20 @@ theme:
   
 plugins:
   - search
+  - toc
   - heti:
       extra_skipped_class:
         - arithmatex
+  - encryptcontent:
+      title_prefix: "🔒 "
+      summary: ''
+      placeholder: '在此输入密码'
+      encryption_info_message: '请输入密码'
+      remember_password: True 
+      default_expire_dalay: 48
+      decryption_failure_message: '密码错误'
+      global_password: 'ACEE2024'
+
   # - turing_changelog
   # - turing_contributors
   # - turing_evaluations
